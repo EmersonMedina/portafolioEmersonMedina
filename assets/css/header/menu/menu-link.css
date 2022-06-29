@@ -1,0 +1,12 @@
+.menu__link {
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    color: #FFCA00;
+}

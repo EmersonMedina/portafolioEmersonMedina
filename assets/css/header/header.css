@@ -1,0 +1,19 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--font-raleway);
+    background-color: #5E1646;
+    background: linear-gradient(to bottom, #5E1646, #152636);
+    padding-top: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
