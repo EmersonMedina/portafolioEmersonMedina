@@ -1,7 +1,9 @@
 .presentation {
+    align-items: center;
+    background-color: #152636;
     display: flex;
-    justify-content: center;
-    margin-top: 1.5rem; 
+    justify-content: space-around;
+    height:90vh;
 }
 
 

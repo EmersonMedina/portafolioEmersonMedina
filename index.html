@@ -8,6 +8,7 @@
     <title>Portafolio</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/bases.css">
+    <link rel="stylesheet" href="assets/css/shared.css">
     <link rel="stylesheet" href="assets/css/header/header.css">
     <link rel="stylesheet" href="assets/css/header/header-container.css">
     <link rel="stylesheet" href="assets/css/header/header-logo.css">
@@ -25,8 +26,24 @@
     <link rel="stylesheet" href="assets/css/main/presentation/presentation.css">
     <link rel="stylesheet" href="assets/css/main/about/about.css">
     <link rel="stylesheet" href="assets/css/main/about/about-title.css">
-    <link rel="stylesheet" href="assets/css/main/about/about-paragraph.css">
-
+    <link rel="stylesheet" href="assets/css/main/about/about-description.css">
+    <link rel="stylesheet" href="assets/css/main/skills/skills.css">
+    <link rel="stylesheet" href="assets/css/main/skills/skill-title.css">
+    <link rel="stylesheet" href="assets/css/main/skills/skill-container.css">
+    <link rel="stylesheet" href="assets/css/main/skills/skill-card.css">
+    <link rel="stylesheet" href="assets/css/main/skills/skill-image.css">
+    <link rel="stylesheet" href="assets/css/main/skills/skill-name.css">
+    <link rel="stylesheet" href="assets/css/shared/cards/cards.css">
+    <link rel="stylesheet" href="assets/css/shared/cards/card-title.css">
+    <link rel="stylesheet" href="assets/css/shared/cards/card-container.css">
+    <link rel="stylesheet" href="assets/css/shared/cards/card-image.css">
+    <link rel="stylesheet" href="assets/css/shared/cards/card-name.css">
+    <link rel="stylesheet" href="assets/css/shared/cards/card.css">
+    <link rel="stylesheet" href="assets/css/main/academic-training/academic-training.css">
+    <link rel="stylesheet" href="assets/css/main/academic-training/academic-image.css">
+    <link rel="stylesheet" href="assets/css/main/academic-training/academic-card.css">
+    <link rel="stylesheet" href="assets/css/main/academic-training/academic-footer.css">
+    <link rel="stylesheet" href="assets/css/main/academic-training/academic-name.css">
 </head>
 <body>
     <header class="header">
@@ -39,7 +56,7 @@
                 <li class="menu__item"><a href="#about-me" class="menu__link">Acerca de mi</a></li>
                 <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
                 <li class="menu__item"><a href="#hobbies" class="menu__link">Hobbies</a></li>
-                <li class="menu__item"><a href="#education" class="menu__link">Formación</a></li>
+                <li class="menu__item"><a href="#academic-training" class="menu__link">Formación</a></li>
                 <li class="menu__item"><a href="#proyects" class="menu__link">Proyectos</a></li>
                 <li class="menu__item"><a href="#contact" class="menu__link">Contacto</a></li>
             </ul>
@@ -56,15 +73,97 @@
             </div>
             <img src="assets/images/perfil.jpg" alt="Imagen de perfil" class="presentation__image">
         </section>
-        <hr>
-        <section class="about">
+  
+        <section class="about" id="about-me">
             <h2 class="about__title">Acerca de mi</h2>
-            <p class="about__paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat 
-                illo ratione debitis ea! Hic assumenda eaque perspiciatis quas quo dignissimos! Sit fugit libero 
-                totam neque fugiat voluptas. Suscipit, eos!
+            <p class="about__description">
+               Soy una persona muy comprometida con mi trabajo, lo que me gusta del mismo
+               es la capacidad que tenemos para abstraer problemas y generar soluciones 
+               que puedan beneficiar a muchas personas. Siempre trato de estar aprendiendo 
+               algo nuevo cada día, con el fin de convertirme cada vez más en un mejor desarrollador. 
             </p>
         </section>
+
+        <section class="cards skills" id="skills">
+            <h2 class="card__title">Skills</h2>
+            <div class="card__container">
+                <div class="card">
+                    <img src="assets/images/skills/html.png" alt="Logo de HTML" class="card__image">
+                    <h3 class="card__name">HTML</h3>
+                </div>
+                <div class="card">
+                    <img src="assets/images/skills/css-3.png" alt="Logo de CSS" class="card__image">
+                    <h3 class="card__name">CSS</h3>
+                </div>
+                <div class="card">
+                    <img src="assets/images/skills/js.png" alt="Logo de JavaScript" class="card__image">
+                    <h3 class="card__name">JavaScript</h3>
+                </div>
+                <div class="card">
+                    <img src="assets/images/skills/c-sharp.png" alt="Logo de C-Sharp" class="card__image">
+                    <h3 class="card__name">C-Sharp</h3>
+                </div>
+                <div class="card">
+                    <img src="assets/images/skills/database.png" alt="Logo de SQL" class="card__image">
+                    <h3 class="card__name">SQL</h3>
+                </div>
+            </div>
+        </section>
+
+         <section class=" cards hobbies" id="hobbies">
+            <h2 class="card__title">Hobbies</h2>
+            <div class="card__container">
+                <div class="card">
+                    <img src="assets/images/hobbies/bicicleta.png" alt="Imagen de una bicicleta" class="card__image">
+                    <h3 class="card__name">Andar en bibicleta</h3>
+                </div>
+                <div class="card">
+                    <img src="assets/images/hobbies/senderismo.png" alt="Imagen de Senderismo" class="card__image">
+                    <h3 class="card__name">Senderismo</h3>
+                </div>
+                <div class="card">
+                    <img src="assets/images/hobbies/balon-de-futbol.png" alt="Balón de fútbol" class="card__image">
+                    <h3 class="card__name">Jugar Fútbol</h3>
+                </div>
+                <div class="card">
+                    <img src="assets/images/hobbies/escucha.png" alt="Persona escuchando música" class="card__image">
+                    <h3 class="card__name">Escuchar música</h3>
+                </div>
+                <div class="card">
+                    <img src="assets/images/hobbies/viendo-una-pelicula.png" alt="Viendo una película" class="card__image">
+                    <h3 class="card__name">Ver series</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="academic-training cards" id="academic-training">
+            <h2 class="card__title">Formación académica</h2>
+            <div class="card__container">
+                <div class="academic__card card"> 
+                    <div class="academic__image">
+                        <img src="assets/images/academic-training/Logo-UNAH-escudo.png" alt="Logo de la UNAH" class="academic__image--unah"> 
+                    </div>
+                    <footer  class="academic__footer">
+                        <h3 class="academic__name card__name">Licenciatura en Informatica Administrativa </h3>
+                        <small>2019 - Actualidad</small>
+                    </footer>
+                </div>
+              
+                <div class="academic__card card"> 
+                    <div class="academic__image">
+                        <img src="assets/images/academic-training/alura.png" alt="Logo de alura" class="academic__image--alura"> 
+                    </div>
+                    <footer class="academic__footer">
+                        <h3 class="academic__name card__name">Formación Front-end</h3>
+                        <small>2022 - Actualidad</small>
+                    </footer>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <a href="https://www.flaticon.es/iconos-gratis/excursionismo" title="excursionismo iconos">Excursionismo iconos creados por shmai - Flaticon</a>
+    </footer>
 </body>
 </html>

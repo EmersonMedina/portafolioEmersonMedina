@@ -1,6 +1,6 @@
 .presentation__image { 
     width: 20%;
-    height: auto; 
+    height: 50vh; 
     border-left: 0.5rem solid #000;
     border-radius: 5%;
 }

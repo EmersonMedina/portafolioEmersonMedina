@@ -1,5 +1,6 @@
-.about__title {
+.about__title {    
     font-weight: 700;
-    text-decoration: underline;
     font-size: 1.7rem;
+    margin-top: 0px;
+    text-decoration: underline;
 }
