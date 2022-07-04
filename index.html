@@ -44,6 +44,12 @@
     <link rel="stylesheet" href="assets/css/main/academic-training/academic-card.css">
     <link rel="stylesheet" href="assets/css/main/academic-training/academic-footer.css">
     <link rel="stylesheet" href="assets/css/main/academic-training/academic-name.css">
+    <link rel="stylesheet" href="assets/css/main/professional-experience/professional-experience.css">
+    <link rel="stylesheet" href="assets/css/main/professional-experience/project.css">
+    <link rel="stylesheet" href="assets/css/main/professional-experience/project-info.css">
+    <link rel="stylesheet" href="assets/css/main/professional-experience/project-buttons.css">
+    <link rel="stylesheet" href="assets/css/main/professional-experience/project-container.css">
+    <link rel="stylesheet" href="assets/css/main/professional-experience/reverse.css">
 </head>
 <body>
     <header class="header">
@@ -57,7 +63,7 @@
                 <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
                 <li class="menu__item"><a href="#hobbies" class="menu__link">Hobbies</a></li>
                 <li class="menu__item"><a href="#academic-training" class="menu__link">Formación</a></li>
-                <li class="menu__item"><a href="#proyects" class="menu__link">Proyectos</a></li>
+                <li class="menu__item"><a href="#professional-experience" class="menu__link">Proyectos</a></li>
                 <li class="menu__item"><a href="#contact" class="menu__link">Contacto</a></li>
             </ul>
         </nav>
@@ -106,6 +112,14 @@
                 <div class="card">
                     <img src="assets/images/skills/database.png" alt="Logo de SQL" class="card__image">
                     <h3 class="card__name">SQL</h3>
+                </div>
+                <div class="card">
+                    <img src="assets/images/skills/git.png" alt="Logo de git" class="card__image">
+                    <h3 class="card__name">Git</h3>
+                </div>
+                <div class="card">
+                    <img src="assets/images/skills/github.png" alt="Logo de github" class="card__image">
+                    <h3 class="card__name">Github</h3>
                 </div>
             </div>
         </section>
@@ -157,6 +171,36 @@
                         <h3 class="academic__name card__name">Formación Front-end</h3>
                         <small>2022 - Actualidad</small>
                     </footer>
+                </div>
+            </div>
+        </section>
+
+        <section class="professional-experience" id="professional-experience">
+            <h2 class="card__title">Experiencia Profesional</h2>
+            <div class="card__container project__container">
+                <div class="project">
+                    <img src="assets/images/professional-experience/encriptador.png" alt="" class="project__image">
+                </div>
+                <div class="project__info">
+                    <h3 class="project__name card__name">Encriptador de texto</h3>
+                    <p>Challenge Alura Codificador</p>
+                    <div class="project__buttons">
+                        <a href="https://github.com/EmersonMedina/Challenge_01_Encriptador" class="project__button project__button--repository" target="_blank">Repositorio</a>
+                        <a href="https://emersonmedina.github.io/Challenge_01_Encriptador/" class="project__button project__button--demo" target="_blank">Ver demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card__container project__container">
+                <div class="project">
+                    <img src="assets/images/professional-experience/juego-ahorcado.png" alt="" class="project__image">
+                </div>
+                <div class="project__info reverse">
+                    <h3 class="project__name card__name">Juego ahorcado</h3>
+                    <p>Challenge Oracle</p>
+                    <div class="project__buttons">
+                        <a href="https://github.com/EmersonMedina/Challenge_02_Juego_Ahorcado" class="project__button project__button--repository" target="_blank">Repositorio</a>
+                        <a href="https://emersonmedina.github.io/Challenge_02_Juego_Ahorcado/" class="project__button project__button--demo" target="_blank">Ver demo</a>
+                    </div>
                 </div>
             </div>
         </section>

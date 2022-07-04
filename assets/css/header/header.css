@@ -8,6 +8,8 @@ header {
     background: linear-gradient(to bottom, #5E1646, #152636);
     padding-top: 0.5rem;
     height: 10%;
+    position: sticky;
+    top: 0px;
 }
 
 

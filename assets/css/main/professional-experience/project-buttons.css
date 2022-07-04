@@ -1,0 +1,26 @@
+.project__buttons {
+    display:flex;
+    gap: 1rem;
+}
+
+.project__button {
+    padding: 0.5rem; 
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.5s;
+}
+
+.project__button:hover {
+    transform:scale(1.1);
+}
+
+.project__button--repository {
+    background-color: #575a5a;
+    border: solid 1px #575a5a;
+    color: #ffffff;
+}
+
+.project__button--demo {
+    background-color: #1E2425;
+    color: #ffffff;
+}

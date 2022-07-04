@@ -1,0 +1,10 @@
+.project__info {
+    background-color: #1abac8;
+    border-radius: 0rem 1rem 1rem 0rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-left: 0.5rem;
+    width: 20%;
+}
+
