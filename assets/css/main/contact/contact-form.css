@@ -1,0 +1,17 @@
+.contact__form {
+    width: 70%;
+    text-align: left;
+}
+
+@media  screen and (max-width: 768px){
+    .contact__form {
+        width: 90%;
+    }
+}
+
+@media  screen and (max-width: 480px){
+    .contact__form {
+        width: 100%;
+        padding: 0;
+    }
+}

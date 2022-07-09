@@ -1,3 +1,12 @@
 .header__name {
+    text-decoration: none;
+    color: #ffffff;
     font-weight: 700;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 910px) { /* De 768px en adelante*/
+    .header__name {
+        font-size: 1rem;
+    }
 }

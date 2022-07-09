@@ -1,0 +1,23 @@
+.toggle-menu {
+    background-color:#07cda9;
+    border-radius: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    position: fixed;    
+    bottom: 1vh;
+    right: 1vw;
+    width: 45px;
+    z-index: 999;
+}   
+
+.toggle__image {
+    filter: invert(1);
+}
+
+@media screen and (min-width: 768px) { /* De 768px en adelante*/
+    .toggle-menu {
+        display: none; 
+    }
+}

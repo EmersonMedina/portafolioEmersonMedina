@@ -24,3 +24,10 @@
     background-color: #1E2425;
     color: #ffffff;
 }
+
+@media screen and (max-width: 480px) {
+    .project__buttons {
+
+        font-size: 0.9rem;
+    }
+}

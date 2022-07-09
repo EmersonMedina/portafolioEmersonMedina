@@ -1,12 +1,21 @@
 .menu__link {
-    text-decoration: none;
-    margin-right: 1rem;
-    font-weight: 400;
     color: #ffffff;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    transition: all 0.3s;
+    width: 100%;
 }
 
 .menu__link:hover {
     text-decoration: underline;
     font-weight: 700;
     color: #FFCA00;
+}
+
+@media screen and (max-width: 910px) { /* De 768px en adelante*/
+    .menu__link {
+        font-size: 1rem;
+    }
 }

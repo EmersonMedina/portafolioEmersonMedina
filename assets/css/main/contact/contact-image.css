@@ -1,0 +1,19 @@
+.contact__image {
+   width: 80%
+}
+
+.contact-container__image {
+    align-items: center;
+    filter: invert(1);
+    display: flex;
+    justify-content: center; 
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 30%;
+}
+
+@media  screen and (max-width: 768px){
+    .contact-container__image {
+        display: none;
+    }
+}

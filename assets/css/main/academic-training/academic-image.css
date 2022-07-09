@@ -16,3 +16,10 @@
     max-height: 160px;
     max-width: 160px;
 }
+
+@media screen and (max-width: 480px) {
+    .academic__image--alura {
+        max-width: 100%;
+        max-height: auto;
+    }
+}

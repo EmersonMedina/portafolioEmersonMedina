@@ -1,4 +1,19 @@
 .presentation__container {
+    text-align: center;
     width: 60%;
     padding-right: 1.5rem;
+    background-color: var(--secondary-color);
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) { /*De 768px hacia atrás*/
+    .presentation__container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) { /*De 768px hacia atrás*/
+    .presentation__container {
+        width: 90%;
+    }
 }

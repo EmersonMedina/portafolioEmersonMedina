@@ -1,0 +1,14 @@
+.about__social-images {
+    text-align: center;
+}
+
+.about__social-images * {
+    cursor: pointer;
+    width: 12%;
+}
+
+@media screen and (max-width: 480px) {
+    .about__social-images * {
+        width: 15%;
+    }
+}

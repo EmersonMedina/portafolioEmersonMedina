@@ -1,0 +1,11 @@
+.menu {
+    transition: transform 0.3s;
+}
+
+@media screen and (min-width: 768px) { /* De 768px en adelante*/
+    .menu {
+        flex-direction: row; 
+    }
+}
+
+

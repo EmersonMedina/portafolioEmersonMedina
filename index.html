@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/header/menu/menu-items.css">
     <link rel="stylesheet" href="assets/css/header/menu/menu-item.css">
     <link rel="stylesheet" href="assets/css/header/menu/menu-link.css">
+    <link rel="stylesheet" href="assets/css/header/menu/toggle-menu.css">
     <link rel="stylesheet" href="assets/css/main/main.css">
     <link rel="stylesheet" href="assets/css/main/presentation/presentation.css">
     <link rel="stylesheet" href="assets/css/main/presentation/presentation-container.css">
@@ -27,12 +28,14 @@
     <link rel="stylesheet" href="assets/css/main/about/about.css">
     <link rel="stylesheet" href="assets/css/main/about/about-title.css">
     <link rel="stylesheet" href="assets/css/main/about/about-description.css">
+    <link rel="stylesheet" href="assets/css/main/about/about-social-images.css">
     <link rel="stylesheet" href="assets/css/main/skills/skills.css">
     <link rel="stylesheet" href="assets/css/main/skills/skill-title.css">
     <link rel="stylesheet" href="assets/css/main/skills/skill-container.css">
     <link rel="stylesheet" href="assets/css/main/skills/skill-card.css">
     <link rel="stylesheet" href="assets/css/main/skills/skill-image.css">
     <link rel="stylesheet" href="assets/css/main/skills/skill-name.css">
+    <link rel="stylesheet" href="assets/css/main/hobbies/hobbies.css">
     <link rel="stylesheet" href="assets/css/shared/cards/cards.css">
     <link rel="stylesheet" href="assets/css/shared/cards/card-title.css">
     <link rel="stylesheet" href="assets/css/shared/cards/card-container.css">
@@ -49,48 +52,76 @@
     <link rel="stylesheet" href="assets/css/main/professional-experience/project-info.css">
     <link rel="stylesheet" href="assets/css/main/professional-experience/project-buttons.css">
     <link rel="stylesheet" href="assets/css/main/professional-experience/project-container.css">
+    <link rel="stylesheet" href="assets/css/main/professional-experience/project-name.css">
     <link rel="stylesheet" href="assets/css/main/professional-experience/reverse.css">
+    <link rel="stylesheet" href="assets/css/main/contact/contact.css">
+    <link rel="stylesheet" href="assets/css/main/contact/contact-image.css">
+    <link rel="stylesheet" href="assets/css/main/contact/contact-form.css">
+    <link rel="stylesheet" href="assets/css/main/contact/form-item.css">
+    <link rel="stylesheet" href="assets/css/main/contact/form-items.css">
+    <link rel="stylesheet" href="assets/css/main/contact/form-name.css">
+    <link rel="stylesheet" href="assets/css/main/contact/form-info.css">
+    <link rel="stylesheet" href="assets/css/main/contact/form-submit.css">
+    <link rel="stylesheet" href="assets/css/shared/active.css">
+    <link rel="stylesheet" href="assets/css/shared/menu-show.css">
+    <link rel="stylesheet" href="assets/css/shared/max-container.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-container.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-            <img src="assets/images/logo.png" alt="Logo portafolio" class="header__logo">
-            <p class="header__name">Emerson Medina</p>
-        </div>
-        <nav class="menu">
-            <ul class="menu__items">
-                <li class="menu__item"><a href="#about-me" class="menu__link">Acerca de mi</a></li>
-                <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
-                <li class="menu__item"><a href="#hobbies" class="menu__link">Hobbies</a></li>
-                <li class="menu__item"><a href="#academic-training" class="menu__link">Formación</a></li>
-                <li class="menu__item"><a href="#professional-experience" class="menu__link">Proyectos</a></li>
-                <li class="menu__item"><a href="#contact" class="menu__link">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="main">
-        <section class="presentation">
-            <div class="presentation__container">
-                <p class="presentation__paragraph1">Hola mi nombre es Emerson Medina y soy desarrollador.</p>
-                <p class="presentation__paragraph2">
-                    Actualmente estudio en la Universidad Nacional autónoma de Honduras, también formo parte del programa
-                    Oracle ONE en Alura Latam.
-                </p>
+    <div class="toggle-menu">
+        <img src="assets/images/menu.png" alt="Menu" class="toggle__image">
+    </div>
+    <header>
+        <section class="header">
+            <div class="header__container">
+                <a href="#presentation"><img src="assets/images/logo.png" alt="Logo portafolio" class="header__logo"></a>
+                <a href="#presentation" class="header__name"> Emerson Medina</a>
             </div>
-            <img src="assets/images/perfil.jpg" alt="Imagen de perfil" class="presentation__image">
+            <nav class="menu">
+                <ul class="menu__items">
+                    <li class="menu__item"><a href="#about-me" class="menu__link">Acerca de mi</a></li>
+                    <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
+                    <li class="menu__item"><a href="#hobbies" class="menu__link">Hobbies</a></li>
+                    <li class="menu__item"><a href="#academic-training" class="menu__link">Formación</a></li>
+                    <li class="menu__item"><a href="#professional-experience" class="menu__link">Proyectos</a></li>
+                    <li class="menu__item"><a href="#contact" class="menu__link">Contacto</a></li>
+                </ul>
+            </nav>
         </section>
-  
-        <section class="about" id="about-me">
-            <h2 class="about__title">Acerca de mi</h2>
-            <p class="about__description">
-               Soy una persona muy comprometida con mi trabajo, lo que me gusta del mismo
-               es la capacidad que tenemos para abstraer problemas y generar soluciones 
-               que puedan beneficiar a muchas personas. Siempre trato de estar aprendiendo 
-               algo nuevo cada día, con el fin de convertirme cada vez más en un mejor desarrollador. 
-            </p>
+    </header>
+    <main id="presentation">
+        <section class="presentation">
+            <div class="max-container presentation">
+                <div class="presentation__container">
+                    <p class="presentation__paragraph1">Hola mi nombre es Emerson Medina y soy desarrollador.</p>
+                    <p class="presentation__paragraph2">
+                        Actualmente estudio en la Universidad Nacional autónoma de Honduras, también formo parte del programa
+                        Oracle ONE en Alura Latam.
+                    </p>
+                </div>
+                <img src="assets/images/perfil.jpg" alt="Imagen de perfil" class="presentation__image">
+            </div>
         </section>
 
-        <section class="cards skills" id="skills">
+        <section class="about" id="about-me">
+            <div class="max-container">
+                <h2 class="about__title">Acerca de mi</h2>
+                <p class="about__description">
+                Soy una persona muy comprometida con mi trabajo, lo que me gusta del mismo
+                es la capacidad que tenemos para abstraer problemas y generar soluciones 
+                que puedan beneficiar a muchas personas. Siempre trato de estar aprendiendo 
+                algo nuevo cada día, con el fin de convertirme cada vez más en un mejor desarrollador. 
+                </p>
+                <div class="about__social-images">
+                <a href=""><img src="assets/images/skills/github.png" alt="Logo de github"></a> 
+                <a href=""><img src="assets/images/linkedin.png" alt="Logo de linkedin"></a> 
+                <a href=""><img src="assets/images/cv.png" alt="Logo de curriculum"></a> 
+                </div>
+                <div>
+        </section>
+
+        <section class="cards skills max-container" id="skills">
             <h2 class="card__title">Skills</h2>
             <div class="card__container">
                 <div class="card">
@@ -124,7 +155,7 @@
             </div>
         </section>
 
-         <section class=" cards hobbies" id="hobbies">
+        <section class=" cards hobbies max-container" id="hobbies">
             <h2 class="card__title">Hobbies</h2>
             <div class="card__container">
                 <div class="card">
@@ -151,31 +182,33 @@
         </section>
 
         <section class="academic-training cards" id="academic-training">
-            <h2 class="card__title">Formación académica</h2>
-            <div class="card__container">
-                <div class="academic__card card"> 
-                    <div class="academic__image">
-                        <img src="assets/images/academic-training/Logo-UNAH-escudo.png" alt="Logo de la UNAH" class="academic__image--unah"> 
+            <div class="max-container">
+                <h2 class="card__title">Formación académica</h2>
+                <div class="card__container">
+                    <div class="academic__card card"> 
+                        <div class="academic__image">
+                            <img src="assets/images/academic-training/Logo-UNAH-escudo.png" alt="Logo de la UNAH" class="academic__image--unah"> 
+                        </div>
+                        <footer  class="academic__footer">
+                            <h3 class="academic__name card__name">Licenciatura en Informatica Administrativa </h3>
+                            <small>2019 - Actualidad</small>
+                        </footer>
                     </div>
-                    <footer  class="academic__footer">
-                        <h3 class="academic__name card__name">Licenciatura en Informatica Administrativa </h3>
-                        <small>2019 - Actualidad</small>
-                    </footer>
-                </div>
-              
-                <div class="academic__card card"> 
-                    <div class="academic__image">
-                        <img src="assets/images/academic-training/alura.png" alt="Logo de alura" class="academic__image--alura"> 
+                
+                    <div class="academic__card card"> 
+                        <div class="academic__image">
+                            <img src="assets/images/academic-training/alura.png" alt="Logo de alura" class="academic__image--alura"> 
+                        </div>
+                        <footer class="academic__footer">
+                            <h3 class="academic__name card__name">Formación Front-end</h3>
+                            <small>2022 - Actualidad</small>
+                        </footer>
                     </div>
-                    <footer class="academic__footer">
-                        <h3 class="academic__name card__name">Formación Front-end</h3>
-                        <small>2022 - Actualidad</small>
-                    </footer>
                 </div>
             </div>
         </section>
 
-        <section class="professional-experience" id="professional-experience">
+        <section class="professional-experience max-container" id="professional-experience">
             <h2 class="card__title">Experiencia Profesional</h2>
             <div class="card__container project__container">
                 <div class="project">
@@ -204,10 +237,47 @@
                 </div>
             </div>
         </section>
+
+        <section class="contact" id="contact">
+            <div class="max-container contact">
+                <div class="contact-container__image">
+                    <img src="assets/images/contact.png" alt="Imagen de contacto" class="contact__image">
+                </div>
+                <form action="" method="post" class="contact__form">
+                    <h2 class="form__name">Contacto</h2>
+                    <p class="form__info">¿Quieres contactarme?</p>
+                    <p class="form__info">Completa el siguiente formulario y me pondré en contacto con usted lo más pronto posible</p>
+                    <ul class="form__items">
+                        <li class="form__item">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="user_name">
+                        </li>
+                        <li class="form__item">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="user_email">
+                        </li>   
+                        <li class="form__item">
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" name="user_subject">
+                        </li>  
+                        <li class="form__item">
+                            <textarea name="user_message" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        </li> 
+                        <input type="submit" value="Enviar Mensaje" class="form__submit">
+                    </ul>
+                </form>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <a href="https://www.flaticon.es/iconos-gratis/excursionismo" title="excursionismo iconos">Excursionismo iconos creados por shmai - Flaticon</a>
+    <footer class="principal-footer">
+        <div class="max-container footer__container">
+            <a href="https://www.flaticon.es" target="_blank">Encuentra diferentes íconos <img src="assets/images/flaticon.png" alt="Icono de flaticon"></a>
+            <p> - Emerson Medina 2022</p>
+        </div>
     </footer>
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/menu-responsive.js"></script>
 </body>
 </html>

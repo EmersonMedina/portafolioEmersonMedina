@@ -1,9 +1,15 @@
 :root {
     --font-raleway: "Raleway", "sans serif";
+    --secondary-color: #131111;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    max-width: 1200px;
+    width: 100%;
+    height: 100vh;
     margin-left: auto; 
     margin-right: auto;
     font-family: var(--font-raleway);
@@ -11,6 +17,6 @@ body {
     color: #ffffff;
 }
 
-hr {
-    max-width:1200px;
+img {
+    max-width: 100%;
 }

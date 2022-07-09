@@ -8,3 +8,14 @@
     width: 25%;
 }
 
+@media screen and (max-width: 768px){
+    .academic__card {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .academic__card {
+        width: 40%;
+    }
+}

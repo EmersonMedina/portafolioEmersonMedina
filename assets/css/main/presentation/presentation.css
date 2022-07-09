@@ -1,11 +1,18 @@
 .presentation {
     align-items: center;
-    background-color: #152636;
+    background: url("../../../images/software-developer.jpg") no-repeat fixed; 
+    background-size:cover; 
     display: flex;
-    justify-content: space-around;
-    height:90vh;
+    flex-direction: column-reverse;
+    justify-content: center;
+    height:100vh;
 }
 
+@media screen and (max-width: 768px) {
+   .presentation {
+       height:100vh;
+   }
+}
 
 
 

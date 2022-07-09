@@ -1,4 +1,11 @@
 .menu__items {
     display:flex;
+    flex-direction: column;
     list-style: none;
+}
+
+@media screen and (min-width: 768px) { /* De 768px en adelante*/
+    .menu__items {
+        flex-direction: row; 
+    }
 }

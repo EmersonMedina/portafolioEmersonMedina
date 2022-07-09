@@ -1,0 +1,7 @@
+
+
+@media screen and (max-width: 480px) {
+    .project__name {
+        font-size: 1.1rem;
+    }    
+}
