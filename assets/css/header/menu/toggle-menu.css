@@ -6,8 +6,8 @@
     align-items: center;
     justify-content:center; 
     position: fixed;    
-    bottom: 1vh;
-    right: 1vw;
+    bottom: 2vh;
+    right: 2vw;
     width: 45px;
     z-index: 999;
 }   
