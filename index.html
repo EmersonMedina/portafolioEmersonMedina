@@ -57,6 +57,7 @@
     <link rel="stylesheet" href="assets/css/main/contact/contact.css">
     <link rel="stylesheet" href="assets/css/main/contact/contact-image.css">
     <link rel="stylesheet" href="assets/css/main/contact/contact-form.css">
+    <link rel="stylesheet" href="assets/css/main/contact/contact-container.css">
     <link rel="stylesheet" href="assets/css/main/contact/form-item.css">
     <link rel="stylesheet" href="assets/css/main/contact/form-items.css">
     <link rel="stylesheet" href="assets/css/main/contact/form-name.css">
@@ -114,9 +115,9 @@
                 algo nuevo cada día, con el fin de convertirme cada vez más en un mejor desarrollador. 
                 </p>
                 <div class="about__social-images">
-                <a href=""><img src="assets/images/skills/github.png" alt="Logo de github"></a> 
-                <a href=""><img src="assets/images/linkedin.png" alt="Logo de linkedin"></a> 
-                <a href=""><img src="assets/images/cv.png" alt="Logo de curriculum"></a> 
+                <a href="https://github.com/EmersonMedina" target="_blank"><img src="assets/images/skills/github.png" alt="Logo de github"></a> 
+                <a href="https://www.linkedin.com/in/emerson-orlando-medina-meza-8a34531b9/" target="_blank"><img src="assets/images/linkedin.png" alt="Logo de linkedin"></a> 
+                <a href="" target="_blank"><img src="assets/images/cv.png" alt="Logo de curriculum"></a> 
                 </div>
                 <div>
         </section>
@@ -239,31 +240,31 @@
         </section>
 
         <section class="contact" id="contact">
-            <div class="max-container contact">
+            <div class="max-container contact-container">
                 <div class="contact-container__image">
                     <img src="assets/images/contact.png" alt="Imagen de contacto" class="contact__image">
                 </div>
-                <form action="" method="post" class="contact__form">
+                <form id="form" class="contact__form">
                     <h2 class="form__name">Contacto</h2>
                     <p class="form__info">¿Quieres contactarme?</p>
                     <p class="form__info">Completa el siguiente formulario y me pondré en contacto con usted lo más pronto posible</p>
                     <ul class="form__items">
                         <li class="form__item">
                             <label for="name">Nombre</label>
-                            <input type="text" id="name" name="user_name">
+                            <input type="text" id="name" name="name" class="contact-name" required>
                         </li>
                         <li class="form__item">
                             <label for="email">Email</label>
-                            <input type="text" id="email" name="user_email">
+                            <input type="email" id="email" name="email" class="contact-email" required>
                         </li>   
                         <li class="form__item">
                             <label for="asunto">Asunto</label>
-                            <input type="text" id="asunto" name="user_subject">
+                            <input type="text" id="asunto" name="subject"  class="contact-subject" required>
                         </li>  
                         <li class="form__item">
-                            <textarea name="user_message" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            <textarea name="message" id="mensaje" cols="30" rows="10" placeholder="Mensaje" class="contact-message" required></textarea>
                         </li> 
-                        <input type="submit" value="Enviar Mensaje" class="form__submit">
+                        <input type="submit" value="Enviar Mensaje" id="button" class="form__submit">
                     </ul>
                 </form>
             </div>
@@ -277,7 +278,13 @@
         </div>
     </footer>
 
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/contact-form.js"></script>
     <script src="assets/js/menu-responsive.js"></script>
+    <script src="assets/js/email.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    emailjs.init('LxeSPQtAvCbcQ7VLi')
+    </script>
 </body>
 </html>

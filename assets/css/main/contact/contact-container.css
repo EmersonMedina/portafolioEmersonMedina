@@ -1,0 +1,18 @@
+.contact-container {
+    background-color: #1E2425;
+    display:flex;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        justify-content: center;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        padding: 0.5rem;
+    }
+}
