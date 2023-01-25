@@ -1,33 +1,33 @@
 .project__buttons {
-    display:flex;
-    gap: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .project__button {
-    padding: 0.5rem; 
-    text-decoration: none;
-    color: #000000;
-    transition: all 0.5s;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.5s;
 }
 
 .project__button:hover {
-    transform:scale(1.1);
+  transform: scale(1.1);
 }
 
 .project__button--repository {
-    background-color: #575a5a;
-    border: solid 1px #575a5a;
-    color: #ffffff;
+  background-color: #575a5a;
+  border: solid 1px #575a5a;
+  color: #ffffff;
 }
 
 .project__button--demo {
-    background-color: #1E2425;
-    color: #ffffff;
+  background-color: #1e2425;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 480px) {
-    .project__buttons {
-
-        font-size: 0.9rem;
-    }
+  .project__buttons {
+    font-size: 0.9rem;
+  }
 }

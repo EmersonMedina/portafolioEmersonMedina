@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="./public/porfolio.ico" />
     <title>Portafolio</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/bases.css">
-    <link rel="stylesheet" href="assets/css/shared.css">
     <link rel="stylesheet" href="assets/css/header/header.css">
     <link rel="stylesheet" href="assets/css/header/header-container.css">
     <link rel="stylesheet" href="assets/css/header/header-logo.css">
@@ -30,12 +30,6 @@
     <link rel="stylesheet" href="assets/css/main/about/about-description.css">
     <link rel="stylesheet" href="assets/css/main/about/about-social-images.css">
     <link rel="stylesheet" href="assets/css/main/skills/skills.css">
-    <link rel="stylesheet" href="assets/css/main/skills/skill-title.css">
-    <link rel="stylesheet" href="assets/css/main/skills/skill-container.css">
-    <link rel="stylesheet" href="assets/css/main/skills/skill-card.css">
-    <link rel="stylesheet" href="assets/css/main/skills/skill-image.css">
-    <link rel="stylesheet" href="assets/css/main/skills/skill-name.css">
-    <link rel="stylesheet" href="assets/css/main/hobbies/hobbies.css">
     <link rel="stylesheet" href="assets/css/shared/cards/cards.css">
     <link rel="stylesheet" href="assets/css/shared/cards/card-title.css">
     <link rel="stylesheet" href="assets/css/shared/cards/card-container.css">
@@ -53,6 +47,7 @@
     <link rel="stylesheet" href="assets/css/main/professional-experience/project-buttons.css">
     <link rel="stylesheet" href="assets/css/main/professional-experience/project-container.css">
     <link rel="stylesheet" href="assets/css/main/professional-experience/project-name.css">
+    <link rel="stylesheet" href="assets/css/main/professional-experience/project-description.css">
     <link rel="stylesheet" href="assets/css/main/professional-experience/reverse.css">
     <link rel="stylesheet" href="assets/css/main/contact/contact.css">
     <link rel="stylesheet" href="assets/css/main/contact/contact-image.css">
@@ -107,10 +102,9 @@
             <div class="max-container">
                 <h2 class="about__title">Acerca de mi</h2>
                 <p class="about__description">
-                Soy una persona muy comprometida con mi trabajo, lo que me gusta del mismo
+                Soy muy comprometido con mi trabajo, lo que me gusta del mismo
                 es la capacidad que tenemos para abstraer problemas y generar soluciones 
-                que puedan beneficiar a muchas personas. Siempre trato de estar aprendiendo 
-                algo nuevo cada día, con el fin de convertirme cada vez más en un mejor desarrollador. 
+                que puedan beneficiar a muchas personas. Trato de poner en práctica mi conocimiento con nuevos proyectos cada día; me emociona enfrentarme a nuevos retos.  
                 </p>
                 <div class="about__social-images">
                     <a href="https://github.com/EmersonMedina" target="_blank"><img src="assets/images/skills/github.png" alt="Logo de github"></a> 
@@ -189,7 +183,7 @@
                 </div>
                 <div class="project__info">
                     <h3 class="project__name card__name">Encriptador de texto</h3>
-                    <p>Challenge Alura Codificador</p>
+                    <p class="project__description">Challenge Alura Codificador, ingrese un texto y codifiquelo, posteriormente coloque el texto codificado y decodifiquelo. </p>
                     <div class="project__buttons">
                         <a href="https://github.com/EmersonMedina/Challenge_01_Encriptador" class="project__button project__button--repository" target="_blank">Repositorio</a>
                         <a href="https://emersonmedina.github.io/Challenge_01_Encriptador/" class="project__button project__button--demo" target="_blank">Ver demo</a>
@@ -202,7 +196,7 @@
                 </div>
                 <div class="project__info reverse">
                     <h3 class="project__name card__name">Juego ahorcado</h3>
-                    <p>Challenge Oracle</p>
+                    <p class="project__description">Challenge Oracle, juego tradicional de ahorcado, puede ingresar sus propias palabras para jugar con otras personas.</p>
                     <div class="project__buttons">
                         <a href="https://github.com/EmersonMedina/Challenge_02_Juego_Ahorcado" class="project__button project__button--repository" target="_blank">Repositorio</a>
                         <a href="https://emersonmedina.github.io/Challenge_02_Juego_Ahorcado/" class="project__button project__button--demo" target="_blank">Ver demo</a>
@@ -215,10 +209,23 @@
                 </div>
                 <div class="project__info reverse">
                     <h3 class="project__name card__name">Nano Links</h3>
-                    <p>Proyecto creado con Vue 3 utilizando pinia, composition API entre otros. Consume una API creada con express.</p>
+                    <p class="project__description">Proyecto creado con Vue 3 utilizando pinia, composition API entre otros. Consume una API creada con express.</p>
                     <div class="project__buttons">
                         <a href="https://nano-links.netlify.app/pblic/KBVnzo" class="project__button project__button--repository" target="_blank">Repositorio</a>
                         <a href="https://nano-links.netlify.app" class="project__button project__button--demo" target="_blank">Ver demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card__container project__container">
+                <div class="project">
+                    <img src="assets/images/professional-experience/poke-api.png" alt="Proyecto Poke API" class="project__image">
+                </div>
+                <div class="project__info reverse">
+                    <h3 class="project__name card__name">Poke API</h3>
+                    <p class="project__description">Consumo de la Poke API con Vue 3, pinia, composition API, Bootstrap 5 entre otros. Ofrece el listado de pokemons, añadir a favoritos y ver información relacionada con cada pokemon.</p>
+                    <div class="project__buttons">
+                        <a href="https://github.com/EmersonMedina/vue-pokemon" class="project__button project__button--repository" target="_blank">Repositorio</a>
+                        <a href="https://pokeapivue3.netlify.app" class="project__button project__button--demo" target="_blank">Ver demo</a>
                     </div>
                 </div>
             </div>

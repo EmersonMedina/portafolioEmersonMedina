@@ -1,19 +1,21 @@
 .about {
-    background-color: #FE1859;
-    border-radius: 1rem;
-    margin: 1rem auto 1rem auto;
-    padding: 1rem;
-    width: 60%;
+  border-radius: 1rem;
+  margin: 1rem auto 1rem auto;
+  padding: 1rem;
+  width: 60%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background: linear-gradient(135deg, #42d392, #647eff);
 }
 
-@media screen and (max-width: 768px){
-    .about {
-        width:85%
-    }  
+@media screen and (max-width: 768px) {
+  .about {
+    width: 85%;
+  }
 }
 
-@media screen and (max-width: 480px){
-    .about {
-        width:95%
-    }  
+@media screen and (max-width: 480px) {
+  .about {
+    width: 95%;
+  }
 }
